@@ -6,6 +6,8 @@ let idx = 0;
 
 const main = document.querySelector('document.body')
 
+main.addEventListener('keydown', )
+
 //if user presses in order alert() a congrats message
 
 //if user puts in one key out of order, keep listening until all keys in order have been pressed
