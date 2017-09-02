@@ -7,7 +7,7 @@ let idx = 0;
 const main = document.querySelector('document.body')
 
 main.addEventListener('keydown', function(e){
-  
+  const key = parseInt(e.detail || e.which)
 })
 
 //if user presses in order alert() a congrats message
