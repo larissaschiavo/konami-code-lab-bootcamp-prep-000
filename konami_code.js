@@ -13,10 +13,10 @@ main.addEventListener('keydown', function(e){
     idx++;
     if (idx === code.length) {
       alert("congrats!")
-      idx = 0
+      idx = 0;
     }
   } else {
-    idx = 0; 
+    idx = 0;
   }
 })
 
@@ -24,6 +24,6 @@ main.addEventListener('keydown', function(e){
 
 //if user puts in one key out of order, keep listening until all keys in order have been pressed
 
-function init() {
-
-}
+// function init() {
+//
+// }
