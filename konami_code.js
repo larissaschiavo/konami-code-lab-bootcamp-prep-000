@@ -5,7 +5,7 @@ function init() {
 let idx = 0;
 
 //add event listener to document.body and check for 'keydown'
-const main = document.querySelector('document.body')
+
 
 
 
