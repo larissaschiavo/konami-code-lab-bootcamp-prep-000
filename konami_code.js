@@ -11,7 +11,9 @@ main.addEventListener('keydown', function(e){
 
   if (key === code[idx]) {
     idx++;
-    if (idx === code.length)
+    if (idx === code.length) {
+      alert("congrats!")
+    }
   }
 })
 
