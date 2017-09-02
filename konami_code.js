@@ -6,10 +6,6 @@ let idx = 0;
 
 //add event listener to document.body and check for 'keydown'
 
-
-
-
-
 document.body.addEventListener('keydown', function(e){
   const key = parseInt(e.detail || e.which);
 
@@ -24,10 +20,3 @@ document.body.addEventListener('keydown', function(e){
   }
 })
 }
-//if user presses in order alert() a congrats message
-
-//if user puts in one key out of order, keep listening until all keys in order have been pressed
-
-// function init() {
-//
-// }
