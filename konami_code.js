@@ -13,7 +13,10 @@ main.addEventListener('keydown', function(e){
     idx++;
     if (idx === code.length) {
       alert("congrats!")
+      idx = 0
     }
+  } else {
+    idx = 0; 
   }
 })
 
